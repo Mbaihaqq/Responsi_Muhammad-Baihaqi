@@ -6,6 +6,7 @@ export default function ProfilePage(){
         <p><strong>Nama:</strong> Muhammad Baihaqi</p>
         <p><strong>NIM:</strong> 21120123140120</p>
         <p><strong>Kelompok:</strong> 15</p>
+        <p>cek</p>
         <p className="mt-4 text-sm text-gray-600">Semua data bersifat statis sesuai ketentuan tugas.</p>
       </div>
     </div>
