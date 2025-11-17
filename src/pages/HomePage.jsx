@@ -1,3 +1,5 @@
+import Permen from '../assets/Permen.jpg'
+
 export default function HomePage({ onNavigate }) {
   return (
     <div className="min-h-screen bg-[#F8F2EB] flex flex-col items-center justify-center px-6">
@@ -15,7 +17,7 @@ export default function HomePage({ onNavigate }) {
 
       {/* Image / Mascot */}
       <img
-        src="src/assets/Permen.jpg"
+        src={Permen}
         alt="Candy illustration"
         className="w-56 mt-10 animate-bounce-slow"
       />
