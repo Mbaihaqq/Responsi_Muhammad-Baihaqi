@@ -11,7 +11,7 @@ export default function App(){
     <div className="min-h-screen">
       <Navbar current={page} onNavigate={setPage} />
       <main>
-        {page === 'home' && <HomePage />}
+        {page === 'home' && <HomePage onNavigate={setPage} />}
         {page === 'produk' && <ProdukPage />}
         {page === 'profile' && <ProfilePage />}
       </main>

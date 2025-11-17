@@ -1,14 +1,23 @@
-export default function ProfilePage(){
+export default function ProfilePage() {
   return (
-    <div className="p-8 max-w-3xl mx-auto">
-      <h1 className="text-2xl font-bold mb-4">Profil</h1>
-      <div className="bg-white rounded p-6 shadow">
-        <p><strong>Nama:</strong> Muhammad Baihaqi</p>
-        <p><strong>NIM:</strong> 21120123140120</p>
-        <p><strong>Kelompok:</strong> 15</p>
-        <p>cek</p>
-        <p className="mt-4 text-sm text-gray-600">Semua data bersifat statis sesuai ketentuan tugas.</p>
+    <div className="min-h-screen bg-[#F8F2EB] flex flex-col items-center px-6 py-12">
+      <h1 className="text-3xl font-bold text-[#8B5E3C] mb-8">
+        Profil
+      </h1>
+
+      <div className="bg-[#FDF9F4] rounded-2xl p-8 shadow-md w-full max-w-xl border border-[#E8DCCD]">
+        <p className="text-lg mb-2">
+          <span className="font-semibold text-[#8B5E3C]">Nama:</span> Muhammad Baihaqi
+        </p>
+
+        <p className="text-lg mb-2">
+          <span className="font-semibold text-[#8B5E3C]">NIM:</span> 21120123140120
+        </p>
+
+        <p className="text-lg mb-4">
+          <span className="font-semibold text-[#8B5E3C]">Kelompok:</span> 15
+        </p>
       </div>
     </div>
-  )
+  );
 }
