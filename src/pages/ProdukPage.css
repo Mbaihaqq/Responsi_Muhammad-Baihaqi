@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@400;600&display=swap');
+
+:root {
+  --cream: #FAF6F1;
+  --coffee: #8B5E3C;
+  --brown-dark: #4A3A2B;
+}
+
+.produk-wrapper {
+  background: var(--cream);
+  min-height: 100vh;
+  padding: 32px;
+  font-family: "Quicksand", sans-serif;
+}
+
+.produk-title {
+  text-align: center;
+  font-size: 28px;
+  color: var(--brown-dark);
+  margin-bottom: 28px;
+}
+
+.produk-grid {
+  display: grid;
+  gap: 22px;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+}
+
+.produk-card {
+  background: #fff;
+  border-radius: 20px;
+  padding: 18px;
+  text-align: center;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+  transition: 0.25s;
+}
+
+.produk-card:hover {
+  transform: translateY(-6px);
+  box-shadow: 0 6px 14px rgba(0,0,0,0.15);
+}
+
+.produk-img {
+  width: 100%;
+  border-radius: 16px;
+  margin-bottom: 12px;
+}
+
+.deskripsi {
+  font-size: 14px;
+  color: #6a5c4c;
+  min-height: 48px;
+}
+
+.harga {
+  display: block;
+  margin: 10px 0;
+  font-weight: 600;
+  color: var(--coffee);
+}
+
+.btn-cart {
+  background: var(--coffee);
+  border: none;
+  padding: 10px 14px;
+  border-radius: 14px;
+  color: #fff;
+  cursor: pointer;
+  transition: 0.25s;
+}
+
+.btn-cart:hover {
+  background: var(--brown-dark);
+}
